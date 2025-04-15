@@ -1,6 +1,8 @@
+package first;
+
 public class MyHashSet<T> {
 
-    private MyLinkedList<T>[] data; //массив листов, где каждый элемент это бакет типа MyLinkedList
+    private MyLinkedList<T>[] data; //массив листов, где каждый элемент это бакет типа first.MyLinkedList
 
     private static final int INITIAL_CAPACITY = 16;
 

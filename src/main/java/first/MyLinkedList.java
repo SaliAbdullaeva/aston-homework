@@ -1,3 +1,5 @@
+package first;
+
 public class MyLinkedList<T> {
     Node head;
     private int size = 0;
