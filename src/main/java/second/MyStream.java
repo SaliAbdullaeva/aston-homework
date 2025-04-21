@@ -1,11 +1,9 @@
+package second;
+
 import java.util.Comparator;
 
-import second.Data;
-import second.Book;
-
-
-public class App {
-    public static void main(String[] args) {
+public class MyStream {
+    public static void myStream(String[] args) {
         Data.generateStudents()
                 .stream()  // преобразуем список студентов в поток
                 .filter(student -> student.getBooks().size() >= 5)  // исключаем студентов с меньшим кол-ством книг
@@ -23,4 +21,3 @@ public class App {
                 );
     }
 }
-
